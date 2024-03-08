@@ -15,7 +15,8 @@
         <module>spring-ioc-annotation-practice-04</module>
         <module>spring-ioc-java-06</module>
         <module>sping-ioc-java-practice-05</module>
-        <module>spring-aop-</module>
+        <module>spring-aop-07</module>
+        <module>spring-aop-08</module>
     </modules>
 
     <properties>
@@ -25,19 +26,13 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.13.2</version>
-            <scope>test</scope>
-        </dependency>
-
+        <!--spring context依赖-->
+        <!--当你引入Spring Context依赖之后，表示将Spring的基础依赖引入了-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
             <version>6.0.6</version>
         </dependency>
-
         <!--junit5测试-->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -48,22 +43,61 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.32</version>
+            <version>8.0.25</version>
         </dependency>
 
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
             <version>1.2.8</version>
-            <scope>compile</scope>
         </dependency>
+
+        <!-- spring-jdbc -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
-            <version>6.1.1</version>
-            <scope>compile</scope>
+            <version>6.0.6</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>6.0.6</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>6.0.6</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- jsr-250注解 Java提供的注解， spring提供了一个 @Resource  -->
+        <dependency>
+            <groupId>jakarta.annotation</groupId>
+            <artifactId>jakarta.annotation-api</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+
+
+
+        <!-- spring-aop框架  -->
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework</groupId>-->
+        <!--            <artifactId>spring-aop</artifactId>-->
+        <!--            <version>6.0.6</version>-->
+        <!--        </dependency>-->
+
+        <!-- spring整合aspectj框架的依赖 , 传到aspect框架依赖-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>6.0.6</version>
+        </dependency>
+
     </dependencies>
+
 
 
 </project>

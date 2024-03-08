@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dace78e-fcff-4501-8d6e-e2abba497a92" name="更改" comment="" />
+    <list default="true" id="1dace78e-fcff-4501-8d6e-e2abba497a92" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-aop-08/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop-/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop-07/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop-/src/main/java/com/aop01/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop-07/src/main/java/com/aop01/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop-/src/main/java/com/aop01/CalculatorPureImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop-07/src/main/java/com/aop01/CalculatorPureImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop-/src/main/java/com/aop01/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop-07/src/main/java/com/aop01/ProxyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop-/src/main/java/com/aop01/aa.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop-07/src/main/java/com/aop01/aa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop-/target/classes/com/aop01/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop-07/target/classes/com/aop01/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop-/target/classes/com/aop01/CalculatorPureImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop-07/target/classes/com/aop01/CalculatorPureImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop-/target/classes/com/aop01/ProxyFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop-07/target/classes/com/aop01/ProxyFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop-/target/classes/com/aop01/ProxyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop-07/target/classes/com/aop01/ProxyFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop-/target/classes/com/aop01/aa.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop-07/target/classes/com/aop01/aa.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,11 +52,13 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2cdDvCSlOrvta7LJ4lLRPwbtEdu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
-    <option name="sortKey" value="BY_TIME_ASCENDING" />
+    <option name="sortKey" value="BY_TIME_DESCENDING" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
@@ -47,7 +66,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "E:/JavaSSM/ssm-spring-part/sping-ioc-java-practice-05/src/main/resources",
+    "last_opened_file_path": "E:/JavaSSM/ssm-spring-part",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,17 +85,17 @@
       <recent name="com.ioc_01" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaSSM\ssm-spring-part" />
       <recent name="E:\JavaSSM\ssm-spring-part\sping-ioc-java-practice-05\src\main\resources" />
       <recent name="E:\JavaSSM\ssm-spring-part\sping-ioc-java-practice-05\src\main\java" />
       <recent name="E:\JavaSSM\ssm-spring-part\spring-ioc-java-06\src\main\resources" />
       <recent name="E:\JavaSSM\ssm-spring-part\spring-ioc-annotation-practice-04\src\main\resources" />
-      <recent name="E:\JavaSSM\ssm-spring-part\spring-ioc-annotation-practice-04\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ioc_03" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.aa">
+  <component name="RunManager" selected="JUnit.Test.test">
     <configuration name="aa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aop01.aa" />
       <module name="spring-aop-07" />
@@ -90,11 +109,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDBCTemplateTest.testSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-ioc-xml02" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JDBCTemplateTest" />
-      <option name="METHOD_NAME" value="testSelect" />
+    <configuration name="SpringAopTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm-spring-part" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.SpringAopTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-aop-08" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-aop-08" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.Test" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,33 +166,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-ioc-annotation-practice-04" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-ioc-java-06" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test.test" />
+        <item itemvalue="JUnit.SpringAopTest.test" />
+        <item itemvalue="JUnit.Test" />
         <item itemvalue="应用程序.aa" />
         <item itemvalue="JUnit.test.test (1)" />
-        <item itemvalue="JUnit.test.test1" />
-        <item itemvalue="JUnit.test.test" />
-        <item itemvalue="JUnit.JDBCTemplateTest.testSelect" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +199,7 @@
       <workItem from="1709804348337" duration="3089000" />
       <workItem from="1709893873786" duration="42000" />
       <workItem from="1709893931984" duration="2853000" />
+      <workItem from="1709900999112" duration="5276000" />
     </task>
     <servers />
   </component>
