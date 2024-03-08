@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dace78e-fcff-4501-8d6e-e2abba497a92" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-aop-08/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop-07/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-/src/main/java/com/aop01/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop-07/src/main/java/com/aop01/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-/src/main/java/com/aop01/CalculatorPureImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop-07/src/main/java/com/aop01/CalculatorPureImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-/src/main/java/com/aop01/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop-07/src/main/java/com/aop01/ProxyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-/src/main/java/com/aop01/aa.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop-07/src/main/java/com/aop01/aa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-/target/classes/com/aop01/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop-07/target/classes/com/aop01/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-/target/classes/com/aop01/CalculatorPureImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop-07/target/classes/com/aop01/CalculatorPureImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-/target/classes/com/aop01/ProxyFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop-07/target/classes/com/aop01/ProxyFactory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-/target/classes/com/aop01/ProxyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop-07/target/classes/com/aop01/ProxyFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-/target/classes/com/aop01/aa.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop-07/target/classes/com/aop01/aa.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +184,7 @@
       <workItem from="1709804348337" duration="3089000" />
       <workItem from="1709893873786" duration="42000" />
       <workItem from="1709893931984" duration="2853000" />
-      <workItem from="1709900999112" duration="5276000" />
+      <workItem from="1709900999112" duration="6461000" />
     </task>
     <servers />
   </component>
