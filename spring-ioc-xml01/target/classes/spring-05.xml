@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        <!--
+        id - > getObject方法标识
+        工厂的Bean标识 &id值
+        Class -> factory标准化工厂
+        -->
+        <bean id="javaBeanFactory" class="com.ioc_05.JavaBeanFactory">
+                <property name="value" value="张三"/>
+        </bean>
+</beans>
