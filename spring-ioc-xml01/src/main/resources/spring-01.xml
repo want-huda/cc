@@ -8,8 +8,8 @@
             建一个组件类 实现两个组件信息 默认单例化模式 会实例两个组件对象
             等于new了两个对象
     -->
-    <bean id="happy1" class="com.Happy"/>
-    <bean id="happy2" class="com.Happy"/>
+    <bean id="happy1" class="com.ioc_05.Happy"/>
+    <bean id="happy2" class="com.ioc_05.Happy"/>
 
 
     <!--静态工程进行ioc配置
@@ -17,11 +17,11 @@
             id唯一标识
             factory-method="静态工长方法"
     -->
-    <bean id="client" class="com.ClientService" factory-method="clientService"/>
+    <bean id="client" class="com.ioc_05.ClientService" factory-method="clientService"/>
 
     <!--非静态工厂 配置ioc
     配置工厂组件信息        -->
-    <bean id="DefaultServiceLocator" class="com.DefaultServiceLocator"/>
+    <bean id="DefaultServiceLocator" class="com.ioc_05.DefaultServiceLocator"/>
     <!--通过非静态工厂对象和方法来配置ioc-->
     <bean id="defaultServiceLocator" factory-bean="DefaultServiceLocator" factory-method="clientServiceImp"/>
 </beans>

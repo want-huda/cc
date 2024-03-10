@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dace78e-fcff-4501-8d6e-e2abba497a92" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-aop-08/src/main/java/com/advice/MyAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-08/src/main/java/com/advice/MyPointCut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-08/src/main/java/com/advice/TxAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-08/src/main/java/com/advice/TxAround.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ioc-xml01/src/main/java/com/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-xml01/src/main/java/com/ioc_05/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ioc-xml01/src/main/java/com/ClientServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-xml01/src/main/java/com/ioc_05/ClientServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ioc-xml01/src/main/java/com/DefaultServiceLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-xml01/src/main/java/com/ioc_05/DefaultServiceLocator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ioc-xml01/src/main/java/com/Happy.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-xml01/src/main/java/com/ioc_05/Happy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ioc-xml01/src/main/resources/spring-01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-xml01/src/main/resources/spring-01.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +69,8 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15527344",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "spring.configuration.checksum": "72c808c129aed6832a92502174110eef",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "5c877db9acdfe227bc24f2c1a1e364e9",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -184,12 +193,95 @@
       <workItem from="1709804348337" duration="3089000" />
       <workItem from="1709893873786" duration="42000" />
       <workItem from="1709893931984" duration="2853000" />
-      <workItem from="1709900999112" duration="6461000" />
+      <workItem from="1709900999112" duration="9842000" />
+      <workItem from="1709988955395" duration="3518000" />
+      <workItem from="1710076856885" duration="2247000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="98bbc73e-eeda-483e-ba45-77bfd648f7b8" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="98bbc73e-eeda-483e-ba45-77bfd648f7b8">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
