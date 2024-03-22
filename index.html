@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet/less" href="style/app.less" />
+    <link rel="stylesheet/less" href="style/login.less" />
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/less/dist/less.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="top_nav">
+        <div class="container clearfix">
+          <ul class="left_nav left">
+            <li><a href="">你好欢迎来到菜市场！</a></li>
+            <li class="login" data-type="login">
+              <a href="" data-type="login">请登录</a>
+            </li>
+            <li class="register">
+              <a data-type="register" href="">免费注册</a>
+            </li>
+          </ul>
+          <ul class="right_nav right">
+            <li><a href="">购物车</a></li>
+            <li>
+              <a href="">服务热线:<span>8004001234</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- 头部搜索 -->
+      <div class="top_search_container">
+        <div class="container clearfix">
+          <!-- logo -->
+          <a href="" class="left_icon left"><img class="logo" src="./res/work2.jpg" alt="logo"></a>
+          <!-- 搜索 -->
+          <div class="search_container left">
+            <input class="search" />
+            <button>搜索</button>
+        </div>
+      </div>
+      <nav class="top_sub_nav_container"></nav>
+      <nav class="top_banner_container"></nav>
+    </header>
+    <div class="main"></div>
+    <footer></footer>
+    <script src="js/login.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

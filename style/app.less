@@ -1,0 +1,90 @@
+@import "tool.less";
+
+header {
+  .top_nav {
+    height: 3rem;
+    background-color: #ececec;
+    text-align: center;
+    line-height: 3rem;
+    padding: 0 10px;
+    box-sizing: border-box;
+    a {
+      color: #929292;
+      padding: 0 10px;
+      border-right: 1px solid #b1b1b1;
+    }
+    li {
+      float: left;
+    }
+    .left_nav {
+      li:last-of-type {
+        a {
+          border-right: 0 none;
+        }
+      }
+    }
+    .right_nav {
+      li:last-of-type {
+        a {
+          border-right: 0 none;
+        }
+        span {
+          color: #ff232d;
+        }
+      }
+    }
+  }
+}
+
+// 封装通用样式-相对定位和绝对定位。
+.relative(@left:0px,@top:0px) {
+  position: relative;
+  left: @left;
+  top: @top;
+}
+.absolute(@left:0px,@top:0px) {
+  position: absolute;
+  left: @left;
+  top: @top;
+}
+// 封装通用样式-转为块级元素及元素居中。
+.toBlock(@width:0px,@height:0px) {
+  display: block;
+  width: @width;
+  height: @height;
+}
+.center(@top:0) {
+  margin: @top auto;
+}
+
+
+
+// 搜索栏及logo样式
+.top_search_container {
+  height: 8rem;
+  .container {
+    height: inherit;
+    .left_icon {
+      padding: 2rem;
+      border: none;
+      .logo{
+        margin-top: .5rem;
+        width: 50px;
+        height: 50px;
+      }
+    }
+    .search_container {
+      height: inherit;
+      .flexCenter();
+      input {
+        .toBlock(20rem, 3rem);
+        border-color: orange;
+        padding: 0 1rem;
+      }
+      button {
+        .toBlock(3.5rem, 3rem);
+        border-color: orange;
+      }
+    }
+  }
+}

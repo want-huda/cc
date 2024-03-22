@@ -1,0 +1,64 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+header .top_nav {
+  height: 3rem;
+  background-color: #ececec;
+  text-align: center;
+  line-height: 3rem;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+header .top_nav a {
+  color: #929292;
+  padding: 0 10px;
+  border-right: 1px solid #b1b1b1;
+}
+header .top_nav li {
+  float: left;
+}
+header .top_nav .left_nav li:last-of-type a {
+  border-right: 0 none;
+}
+header .top_nav .right_nav li:last-of-type a {
+  border-right: 0 none;
+}
+header .top_nav .right_nav li:last-of-type span {
+  color: #ff232d;
+}
+.top_search_container {
+  height: 8rem;
+}
+.top_search_container .container {
+  height: inherit;
+}
+.top_search_container .container .left_icon {
+  padding: 2rem;
+  border: none;
+}
+.top_search_container .container .left_icon .logo {
+  margin-top: 0.5rem;
+  width: 50px;
+  height: 50px;
+}
+.top_search_container .container .search_container {
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.top_search_container .container .search_container input {
+  display: block;
+  width: 20rem;
+  height: 3rem;
+  border-color: orange;
+  padding: 0 1rem;
+}
+.top_search_container .container .search_container button {
+  display: block;
+  width: 3.5rem;
+  height: 3rem;
+  border-color: orange;
+}
