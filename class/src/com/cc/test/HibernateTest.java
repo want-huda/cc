@@ -1,6 +1,6 @@
 package com.cc.test;
 import com.cc.pojo.User;
-import com.cc.util.HiberanteUtil;
+import com.cc.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -28,7 +28,8 @@ public class HibernateTest {
 
         //4、通过会话对象操作对象，实现数据库操作
         User user = new User();
-        user.setUsername("曹文杰");
+        user.setUsername("cc");
+
         user.setPassword("111111");
         user.setAddress("湖北黄石");
         user.setSalary(1.0);
@@ -43,7 +44,7 @@ public class HibernateTest {
     @Test
     //查询数据库中的数据
     public void queryData(){
-        SessionFactory sessionFactory = HiberanteUtil.getSessionFactory();
+        SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         Session session = sessionFactory.openSession();
         User user = session.get(User.class,1);
         System.out.println("user信息" + user);
@@ -54,7 +55,7 @@ public class HibernateTest {
     @Test
     //更新数据库中的数据
     public void updataData(){
-        SessionFactory sessionFactory = HiberanteUtil.getSessionFactory();
+        SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         Session session = sessionFactory.openSession();
         //开启事务
         Transaction transaction = session.beginTransaction();
@@ -72,7 +73,7 @@ public class HibernateTest {
     @Test
     //删除数据库中的数据
     public void deleteData(){
-        SessionFactory sessionFactory =HiberanteUtil.getSessionFactory();
+        SessionFactory sessionFactory =HibernateUtil.getSessionFactory();
         Session session = sessionFactory.openSession();
 
         Transaction transaction =session.beginTransaction();
@@ -89,7 +90,7 @@ public class HibernateTest {
     @Test
     //瞬时态实体对象：实体对象没有主键值，与session没有关联;对于瞬时态对象，使用saveOrUpdate方法时，执行的是添加操作
     public void testSavwOrUpdate(){
-        SessionFactory sessionFactory = HiberanteUtil.getSessionFactory();
+        SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         Session session = sessionFactory.openSession();
 
 //        User user = new User();
@@ -111,7 +112,7 @@ public class HibernateTest {
 
     //持久态实体对象：实体对象有主键值，与session对象有关联；对于持久态对象，使用saveOrUpdate方法时，执行的是修改操作
         User user = session.get(User.class,1);
-        user.setUsername("曹文杰");
+        user.setUsername("cc");
 
         session.saveOrUpdate(user);
 
@@ -138,12 +139,12 @@ public class HibernateTest {
 
     @Test
     public void testSaveOrUpdate(){
-        SessionFactory sessionFactory = HiberanteUtil.getSessionFactory();
+        SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         Session session = sessionFactory.openSession();
 
         //瞬时态
         /*User user = new User();
-        user.setUsername("caowenjie");
+        user.setUsername("cc");
         user.setPassword("123456");
         user.setAddress("湖北黄石");
         user.setSalary(10.22);
@@ -154,7 +155,7 @@ public class HibernateTest {
         /*Transaction transaction = session.beginTransaction();
         User user = new User();
         user.setUid(5);
-        user.setUsername("caowenjie");
+        user.setUsername("cc");
         user.setPassword("123456");
         user.setAddress("湖北黄石");
         user.setSalary(10.22);
@@ -165,7 +166,7 @@ public class HibernateTest {
         Transaction transaction = session.beginTransaction();
         //持久态
         User user = session.get(User.class, 2);
-        user.setUsername("曹文杰");
+        user.setUsername("cc");
         session.saveOrUpdate(user);
 
         transaction.commit();
@@ -176,7 +177,7 @@ public class HibernateTest {
     }
     @Test
     public void testCache(){
-        SessionFactory sessionFactory = HiberanteUtil.getSessionFactory();
+        SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         Session session = sessionFactory.openSession();
 
         User user1 = session.get(User.class, 3);
@@ -192,12 +193,12 @@ public class HibernateTest {
         Transaction transaction = null;
 
         try {
-            sessionFactory = HiberanteUtil.getSessionFactory();
+            sessionFactory = HibernateUtil.getSessionFactory();
             session = sessionFactory.openSession();
             transaction = session.beginTransaction();
 
             User user = session.get(User.class, 2);
-            user.setUsername("啊杰");
+            user.setUsername("cc");
 
             transaction.commit();
         } catch (Exception e) {
@@ -217,7 +218,7 @@ public class HibernateTest {
     }
     @Test
     public void testQuery(){
-        SessionFactory sessionFactory = HiberanteUtil.getSessionFactory();
+        SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         Session session = sessionFactory.openSession();
 
        /* Session session = HiberanteUtil.getSession();
@@ -252,7 +253,7 @@ public class HibernateTest {
         //4.条件查询
         /*String hql = "from User where username = ?0 and address = ?1";
         Query<User> query = session.createQuery(hql, User.class);
-        query.setParameter(0, "曹文杰");
+        query.setParameter(0, "cc");
         query.setParameter(1,"黄石");
         List<User> userList = query.list();
         for(User user : userList){
@@ -261,7 +262,7 @@ public class HibernateTest {
 
         String hql = "from User where username = :username and address = :address";
         Query<User> query = session.createQuery(hql, User.class);
-        query.setParameter("username", "曹文杰");
+        query.setParameter("username", "cc");
         query.setParameter("address", "黄石");
         List<User> userList = query.list();
         for(User user : userList){
@@ -273,7 +274,7 @@ public class HibernateTest {
     }
     @Test
     public void testCriteria(){
-        SessionFactory sessionFactory = HiberanteUtil.getSessionFactory();
+        SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         Session session = sessionFactory.openSession();
 
         CriteriaBuilder criteriaBuilder = session.getCriteriaBuilder();
@@ -302,7 +303,7 @@ public class HibernateTest {
 
         CriteriaQuery<User> criteriaBuilderQuery = criteriaBuilder.createQuery(User.class);
         Root<User> root = criteriaBuilderQuery.from(User.class);
-        criteriaBuilderQuery.where(criteriaBuilder.equal(root.get("username"), "曹文杰"));
+        criteriaBuilderQuery.where(criteriaBuilder.equal(root.get("username"), "cc"));
         Query<User> query = session.createQuery(criteriaBuilderQuery);
 
         List<User> userList = query.list();
@@ -316,7 +317,7 @@ public class HibernateTest {
 
     @Test
     public void testSQLQuery(){
-        SessionFactory sessionFactory = HiberanteUtil.getSessionFactory();
+        SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         Session session = sessionFactory.openSession();
 
         /*String sql = "select * from tb_user";
@@ -329,7 +330,7 @@ public class HibernateTest {
         String sql = "select * from tb_user where name = ? and addr = ?";
         NativeQuery sqlQuery = session.createSQLQuery(sql);
         sqlQuery.addEntity(User.class);
-        sqlQuery.setParameter(1, "曹文杰");
+        sqlQuery.setParameter(1, "cc");
         sqlQuery.setParameter(2,"黄石");
         List<User> list = sqlQuery.list();
         for (User user : list){
