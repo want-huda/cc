@@ -1,0 +1,37 @@
+GET http://localhost:8080/springmvc/hello
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-24T002016.404.html
+
+###
+
+GET http://localhost:8080/springmvc/hello
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-24T001954.404.html
+
+###
+
+POST http://localhost:8080/springmvc/hello
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-24T001935.404.html
+
+###
+
+GET http://localhost:8080/springmvc/hello
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-24T001911.404.html
+
+###
+
