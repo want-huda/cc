@@ -1,0 +1,32 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/class/lib/hibernate-commons-annotations-5.1.2.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/class/lib/javax.persistence-api-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/class/lib/antlr-2.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/class/lib/slf4j-api-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/class/lib/FastInfoset-1.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/class/lib/dom4j-2.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/class/lib/jandex-2.1.3.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/class/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/class/lib/hibernate-core-5.4.27.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/class/lib/jaxb-runtime-2.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/class/lib/jboss-logging-3.4.1.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/class/lib/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/class/lib/jaxb-api-2.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/class/lib/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/class/lib/txw2-2.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/class/lib/slf4j-log4j12-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/class/lib/classmate-1.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/class/lib/javassist-3.27.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/class/lib/byte-buddy-1.10.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/class/lib/javax.activation-api-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/class/lib/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/class/lib/mysql-connector-java-8.0.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/class/lib/istack-commons-runtime-3.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/class/lib/stax-ex-1.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

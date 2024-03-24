@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--引入Hibernate核心配置文件约束-->
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<!--Hibernate核心配置文件-->
+<hibernate-configuration>
+    
+    <session-factory>
+        <!-- 1.数据库配置文件 必须-->
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/class2110?serverTimezone=GMT&amp;useSSL=false&amp;characterEncoding=utf-8</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">123456</property>
+
+<!--        2.Hibernate配置信息 非必须-->
+<!--        2.1 查看hibernate底层生成的SQl语句-->
+        <property name="hibernate.show_sql">true</property>
+<!--        2.2想要格式化生成的SQL语句-->
+        <property name="hibernate.format_sql">true</property>
+<!--        2.3 设置生成数据库语句的引擎-->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+<!--        2.4 hibernate自动常见数据库表，如果表已存在，则更新数据库表，如果不存在，则创建数据库表-->
+        <property name="hbm2ddl.auto">update</property>
+        <!--2.5事务隔离级别-->
+<!--        <property name="hibernate.connection.isolation">4</property>-->
+<!--2.6session与本地线程绑定-->
+        <property name="hibernate.current_session_context_class">thread</property>
+
+<!--        3.引入映射关系配置文件 必须 mapping标间必须在property标签之后-->
+        <mapping resource="com/hbnu/config/user.hbm.xml"/>
+    </session-factory>
+</hibernate-configuration>

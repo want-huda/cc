@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 添加Hibernate框架映射关系配置文件约束 -->
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <!--
+        映射关系配置文件：用于配置实体类对象和数据库表之间的映射关系
+        name：实体类全路径名称
+        table：与实体类对应的数据库表名称
+    -->
+    <class name="com.cc.pojo.User" table="tb_user">
+        <!--  主键映射关系
+        name:实体类中的唯一属性
+        column：与实体类对应的数据库表中的主键名称,column属性可以省略，省略后生成的数据库表字段名和实体类中的属性名一致
+        -->
+        <id name="uid" column="id">
+            <!-- 主键生成策略-->
+            <generator class="native"></generator>
+        </id>
+    <!--  其他属性映射关系  -->
+        <property name="username" column="name"/>
+        <property name="password" column="password"/>
+        <property name="address" column="addr"/>
+        <property name="salary" column="salary"/>
+    </class>
+</hibernate-mapping>
